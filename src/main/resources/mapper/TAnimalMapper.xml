@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zj.union.mapper.TAnimalMapper">
+
+    <insert id="saveDeclare">
+        INSERT INTO t_declare (findDate, findArea, findImg,postscript,findTime)
+        VALUES (#{findDate}, #{findArea},#{findImg},#{postscript},#{findTime});
+    </insert>
+</mapper>
